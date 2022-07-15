@@ -1,6 +1,8 @@
+import { ArticlesContainer } from "./style";
+
 export const Articles = () => {
   return (
-    <div>
+    <ArticlesContainer>
       <div>IMG</div>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi,
@@ -8,6 +10,6 @@ export const Articles = () => {
         provident, doloribus sequi, aperiam aliquam impedit dicta voluptatum est
         consequatur.
       </p>
-    </div>
+    </ArticlesContainer>
   );
 };
