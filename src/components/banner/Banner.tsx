@@ -1,7 +1,8 @@
 import { BannerSlider } from "./style";
 import img1 from "../../assets/1.jpg";
+import img2 from "../../assets/2.jpg";
+import { useEffect, useState } from "react";
 
 export const Banner = () => {
-  const imgArray = ["1.jpg", "2.jpg", "3.jpg"];
-  return <BannerSlider>{/* <img src={img1} /> */}</BannerSlider>;
+  return <BannerSlider></BannerSlider>;
 };
