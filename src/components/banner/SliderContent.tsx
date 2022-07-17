@@ -4,7 +4,9 @@ export const SliderContent = ({ activeIndex, imageSlider }: any) => {
       {imageSlider.map((slide: any, index: any) => (
         <div
           key={index}
-          className={index === activeIndex ? "slides active" : "inactive"}
+          className={`slides 
+            ${index === activeIndex ? "active" : "inactive"}
+          `}
         >
           <img className="slide-image" src={slide.urls} alt="" />
           <h2 className="slide-title">{slide.title}</h2>

@@ -8,6 +8,7 @@ export const NavbarContainer = styled.nav`
   padding-top: 32px;
   align-items: center;
   gap: 20px;
+  color: #f2f2f2;
 
   & > p {
     width: 20%;

@@ -14,18 +14,19 @@ export const BannerSlider = styled.div`
 
   .active {
     display: inline-block;
-    transition-duration: 150ms;
+    transition: ease-in 500ms;
+    opacity: 1;
   }
 
   .inactive {
-    transition-duration: 150ms;
-    display: none;
+    transition: ease-out 1500ms;
+    opacity: 0;
   }
 
   .slides {
     height: ${slideHeight};
     width: ${slideWidth};
-    position: relative;
+    position: absolute;
     justify-content: center;
     align-items: center;
   }
@@ -35,19 +36,21 @@ export const BannerSlider = styled.div`
     height: 100%;
     position: absolute;
     object-fit: cover;
+    filter: brightness(85%);
   }
 
   .slide-title,
   .slide-text {
     width: 100%;
     height: 100%;
-    color: #2e2e2e;
+    color: #f2f2f2;
     font-size: 50px;
     position: absolute;
     text-align: center;
     top: 40%;
     z-index: 10;
     box-shadow: 5px;
+    text-shadow: 0px 0px 4px #4e4e4e;
   }
 
   .slide-text {
