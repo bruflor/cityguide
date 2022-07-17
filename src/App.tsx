@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <Navbar />
+      <div className="headerContainer">
         <Banner />
+        <Navbar />
       </div>
     </div>
   );

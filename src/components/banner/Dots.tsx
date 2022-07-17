@@ -1,3 +1,5 @@
+import { Circle } from "phosphor-react";
+
 export const Dots = ({ activeIndex, onclick, imageSlider }: any) => {
   return (
     <div className="all-dots">
@@ -8,7 +10,9 @@ export const Dots = ({ activeIndex, onclick, imageSlider }: any) => {
           onClick={() => {
             onclick(index);
           }}
-        ></span>;
+        >
+          <Circle />
+        </span>;
       })}
     </div>
   );
