@@ -4,19 +4,21 @@ let slideHeight = "600px";
 let slideWidth = "100%";
 
 export const BannerSlider = styled.div`
+  /* position: absolute; */
   box-sizing: border-box;
   margin: 0;
   height: ${slideHeight};
   width: ${slideWidth};
-  position: absolute;
   margin: auto;
   overflow: hidden;
 
   .active {
     display: inline-block;
+    transition-duration: 150ms;
   }
 
   .inactive {
+    transition-duration: 150ms;
     display: none;
   }
 
@@ -39,7 +41,7 @@ export const BannerSlider = styled.div`
   .slide-text {
     width: 100%;
     height: 100%;
-    color: white;
+    color: #2e2e2e;
     font-size: 50px;
     position: absolute;
     text-align: center;

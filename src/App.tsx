@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import { Navbar } from "./components/navegation/Navbar";
 import { Banner } from "./components/banner/Banner";
+import { SearchBar } from "./components/searchBar/SearchBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
         <Banner />
         <Navbar />
       </div>
+      <SearchBar />
     </div>
   );
 }
