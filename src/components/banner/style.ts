@@ -27,6 +27,7 @@ export const BannerSlider = styled.div`
     height: ${slideHeight};
     width: ${slideWidth};
     position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -41,8 +42,6 @@ export const BannerSlider = styled.div`
 
   .slide-title,
   .slide-text {
-    width: 100%;
-    height: 100%;
     color: #f2f2f2;
     font-size: 50px;
     position: absolute;

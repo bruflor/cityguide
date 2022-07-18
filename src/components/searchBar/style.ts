@@ -11,6 +11,7 @@ export const SearchBoxContainer = styled.div`
   box-shadow: 0px 2px 8px #ccc;
   font-size: 1.5em;
   margin-top: 16px;
+  border-radius: 8px;
   /* padding: 16px; */
 
   & input {
