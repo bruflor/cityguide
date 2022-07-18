@@ -5,6 +5,7 @@ import { Navbar } from "./components/navegation/Navbar";
 import { Banner } from "./components/banner/Banner";
 import { SearchBar } from "./components/searchBar/SearchBar";
 import { Cards } from "./components/cards/Cards";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       </div>
       <SearchBar />
       <Cards />
+      <Footer />
     </div>
   );
 }

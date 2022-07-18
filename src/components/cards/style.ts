@@ -5,6 +5,7 @@ export const Container = styled.section`
   height: 100%;
   margin: auto;
   padding-top: 64px;
+  padding-bottom: 64px;
   align-content: center;
   .cards {
     display: flex;

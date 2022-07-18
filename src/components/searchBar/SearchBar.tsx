@@ -6,7 +6,7 @@ export const SearchBar = () => {
     <SearchBoxContainer>
       <input></input>
       <a>
-        <MagnifyingGlass />
+        <MagnifyingGlass size={48} />
       </a>
     </SearchBoxContainer>
   );
