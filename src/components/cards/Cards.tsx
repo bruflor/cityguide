@@ -36,17 +36,20 @@ const dummyCategory = [
 export const Cards = () => {
   return (
     <Container>
-      {dummyCategory.map((props) => {
-        return (
-          <CardContainer>
-            <img />
-            <div>
-              <h2>{props.title}</h2>
-              <p hidden></p>
-            </div>
-          </CardContainer>
-        );
-      })}
+      <h2>Escolha uma categoria</h2>
+      <div className="cards">
+        {dummyCategory.map((props) => {
+          return (
+            <CardContainer>
+              <img src={props.url} />
+              <div className="content">
+                <h2>{props.title}</h2>
+                <p hidden></p>
+              </div>
+            </CardContainer>
+          );
+        })}
+      </div>
     </Container>
   );
 };

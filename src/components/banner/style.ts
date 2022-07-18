@@ -42,13 +42,13 @@ export const BannerSlider = styled.div`
 
   .slide-title,
   .slide-text {
-    color: #f2f2f2;
     font-size: 50px;
     position: absolute;
     text-align: center;
     top: 40%;
     z-index: 10;
     box-shadow: 5px;
+    color: #f2f2f2;
     text-shadow: 0px 0px 4px #4e4e4e;
   }
 
