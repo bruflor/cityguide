@@ -1,13 +1,20 @@
 import { MagnifyingGlass } from "phosphor-react";
+import { useState } from "react";
 import { SearchBoxContainer } from "./style";
 
-export const SearchBar = () => {
+interface IProps {
+  WhiteBar: boolean;
+}
+
+export const SearchBar = ({ WhiteBar }: IProps) => {
   return (
     <SearchBoxContainer>
-      <input></input>
-      <a>
-        <MagnifyingGlass size={48} />
-      </a>
+      <div className={WhiteBar ? "whiteBar" : "transparentBar"}>
+        <input></input>
+        <a>
+          <MagnifyingGlass size={32} />
+        </a>
+      </div>
     </SearchBoxContainer>
   );
 };

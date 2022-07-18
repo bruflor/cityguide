@@ -16,7 +16,7 @@ function App() {
         <Banner />
         <Navbar />
       </div>
-      <SearchBar />
+      <SearchBar WhiteBar={true} />
       <Cards />
       <Footer />
     </div>
